@@ -17,5 +17,5 @@
   },
   "author": "sean",
   "license": "ISC",
-  "scripts": { "start": "node server.js"} }
+  "scripts": { "start": "node server.js"}
 }
