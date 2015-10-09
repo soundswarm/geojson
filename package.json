@@ -4,12 +4,8 @@
   "description": "geojson api",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "mongodb": "^2.0.45",
-    "mongodb-promise": "0.0.4",
-    "mongoskin": "^2.0.0",
-    "params": "^0.1.1"
+    "mongoskin": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {

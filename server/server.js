@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
 
-var mongodb = require("mongodb-promise");
 var mongoskin = require('mongoskin');
 var db = mongoskin.db('mongodb://@localhost:27017/geoJsonDb', {safe:true})
 var collection = db.collection('geoJson', {strict: true});
