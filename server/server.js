@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 var mongoskin = require('mongoskin');
-var db = mongoskin.db('mongodb://@localhost:27017/geoJsonDb', {safe:true})
+var db = mongoskin.db(process.env.MONGOLAB_URI || 'mongodb://@localhost:27017/geoJsonDb', {safe:true})
 var collection = db.collection('geoJson', {strict: true});
 
 var fieldsToQuery = function(fields) {

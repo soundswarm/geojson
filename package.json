@@ -16,5 +16,6 @@
     "url": "https://github.com/soundswarm/geojson.git/"
   },
   "author": "sean",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": { "start": "node server.js"} }
 }
