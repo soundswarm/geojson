@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
+    "mongodb": "^2.0.45",
     "mongoskin": "^2.0.0"
   },
   "devDependencies": {},
@@ -16,6 +17,5 @@
     "url": "https://github.com/soundswarm/geojson.git/"
   },
   "author": "sean",
-  "license": "ISC",
-  "scripts": { "start": "node server/server.js"}
+  "license": "ISC"
 }
