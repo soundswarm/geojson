@@ -1,8 +1,10 @@
 # Next Steps
-  add front end in React or Angular:
+  Add front end in React or Angular:
 
   Build responsive form that allows user to query database
+  
   Display query results on a map and a list.  Map and List will have a real time filter.
+  
   Add performance optimizations
 
 
